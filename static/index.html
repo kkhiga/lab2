@@ -5,6 +5,19 @@
 	<title>HCI Project Portfolio</title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Fonts -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/boostrap-theme.min.css" rel="stylesheet">
+	<!-- Custom Styles -->
+	<link href="css/introHCI.css" rel="stylesheet">
+
+
+
+
 	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -16,67 +29,170 @@
 </head>
 
 <body>
-	<div>
+	<div class="container">
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div>
-			<h1>Michael Bernstein</h1>
-			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-responsive img-circle img-profile" src="images/profile.jpg">
+			</div>
+			<div class="col-md-9 title-header">
+				<h1 class="name-title">Kellie Higa </h1>
+
+				<p class="name-alt">(ケリー和子比嘉) </p>
+				<p>University of California, San Diego &middot;  Undergraduate, Junior
+				<br> Major  &middot;  Cognitive Science, B.S.  &middot;  Human-Computer Interaction
+				<br> Minor  &middot;  Computer Science 
+				<br> Interested in Front-End Development and More!</p>
+			</div>
 		</div>
 
 
-		<h4>Projects</h4>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div id="project1">
-			<a href="project.html">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
-				<p>Waiting in Line</p>
-			</a>
-		</div>
-		<div id="project2">
-			<a href="project.html">
-				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
-				<p>Needfinding</p>
-			</a>
-		</div>
-		<div id="project3">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
-				<p>Prototyping</p>
-			</a>
-		</div>
-		<div id="project4">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
-				<p>Heuristic Evaluation</p>
-			</a>
-		</div>
-		<div id="project5">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
-				<p>Visualization</p>
-			</a>
-		</div>
-		<div id="project6">
-			<a href="project.html">
-				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
-				<p>Social design</p>
-			</a>
-		</div>
-		<div id="project7">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
-				<p>Gestural interaction</p>
-			</a>
-		</div>
-		<div id="project8">
-			<a href="project.html">
-				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
-				<p>Design tools</p>
-			</a>
-		</div>
+			<div class="row">
+					<h3 class="sub-head text-center">Course Work </h3>
+			</div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-5">
+					<ul class="list-group">
+						<li class="list-group-item list-heading">Cognitive Science</li>
+						<li class="list-group-item">COGS 1 &middot; Introduction to Cognitive Science</li>
+						<li class="list-group-item">COGS 14A &middot; Introduction to Research Methods</li>
+						<li class="list-group-item">COGS 14B &middot; Introduction to Statistical Analysis</li>
+						<li class="list-group-item">COGS 101A &middot; Sensation & Perception</li>
+						<li class="list-group-item">COGS 101B &middot; Learning, Memory, & Attention</li>
+						<li class="list-group-item">COGS 101C &middot; Language </li>
+						<li class="list-group-item">COGS 102A &middot; Distributed Cognition </li>
+						<li class="list-group-item">COGS 102B &middot; Cognitive Ethnography </li>
+<!-- 						<li class="list-group-item">COGS 102C &middot; Cognitive Design Studio</li> -->
+						<li class="list-group-item">COGS 107A &middot; Neuroanatomy & Physiology </li>
+						<li class="list-group-item">COGS 107B &middot; Systems Neuroscience</li>
+						<li class="list-group-item">COGS 107C &middot; Cognitive Neuroscience</li>
+						<li class="list-group-item">COGS 109 &middot; Modeling & Data Analysis</li>
+						<li class="list-group-item">COGS 187A &middot; Usability & Information Architecture</li>
+						<li class="list-group-item">COGS 187B &middot; Practicum in Professional Web Design</li>
+					</ul>
+				</div>
+
+				<div class="col-md-5">
+					<ul class="list-group">
+						<li class="list-group-item list-heading">Computer Science & Engineering</li>
+						<li class="list-group-item">CSE 7 &middot; Introduction to MATLAB</li>
+						<li class="list-group-item">CSE 8A &middot; Introduction to Computer Science: Java I</li>
+						<li class="list-group-item">CSE 8B &middot; Introduction to Computer Science: Java II</li>
+						<li class="list-group-item">CSE 12 &middot; Data Structures & Object-Oriented Design </li> 
+						<li class="list-group-item">CSE 30 &middot; Computer Organization & Systems Programming</li>
+						<li class="list-group-item">CSE 100 &middot; Advanced Data Structures</li>
+						<li class="list-group-item">CSE 101 &middot; Design & Analysis of Algorithms</li>
+					</ul>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="sub-head text-center">Work Experience</h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<img class="img-responsive work-experience" src="http://jacobsschool.ucsd.edu/envision/img/UCSDLogo_ArtsHumanities-VisualArts_Black_Web.jpg" alt="UCSD Visual Arts Department Logo">
+				</div>
+				<div class="col-md-6">
+					<img class="img-responsive img-circle work-experience" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Seal_of_Honolulu,_Hawaii.svg/2000px-Seal_of_Honolulu,_Hawaii.svg.png" alt="City & County of Honolulu Seal">
+					<h3 class="img-right-label text-shadow">2016 Primary Election</h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="sub-head text-hover">Projects</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="project" id="project1">
+						<a class="project-animate" href="project.html">
+							<img class="img-responsive img-project" src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
+							<p class="text-center">Waiting in Line</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="project" id="project2">
+						<a href="project.html">
+							<img class="img-responsive img-project" src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
+							<p class="text-center">Needfinding</p>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="project" id="project3">
+						<a href="project.html">
+							<img class="img-project img-responsive" src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
+							<p class="text-center">Prototyping</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="project" id="project4">
+						<a href="project.html">
+							<img class="img-responsive img-project" src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
+							<p class="text-center">Heuristic Evaluation</p>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="project" id="project5">
+						<a href="project.html">
+							<img class="img-responsive img-project" src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
+							<p class="text-center">Visualization</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="project" id="project6">
+						<a href="project.html">
+							<img class="img-responsive img-project" src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
+							<p class="text-center">Social design</p>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="row">
+				<div class="col-md-6">
+					<div class="project" id="project7">
+						<a href="project.html">
+							<img class="img-responsive img-project" src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
+							<p class="text-center">Gestural interaction</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="project" id="project8">
+						<a href="project.html">
+							<img class="img-responsive img-project" src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
+							<p class="text-center">Design tools</p>
+						</a>
+					</div>
+				</div>
+			</div>
+
 	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>

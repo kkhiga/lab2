@@ -1,4 +1,92 @@
 /* applies to anything of class "example-class-selector" */
+* {
+     /*font-family: 'Open Sans', sans-serif;*/
+     /*font-family: 'Pacifico', cursive;*/
+     font-family: 'Raleway', sans-serif;
+     /*text-transform: uppercase;*/
+     background: transparent;
+     background-color: transparent;
+}
+
+
+html {
+     background: url("http://bsnscb.com/data/out/153/27270914-portfolio-wallpapers.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     font-family: 'Raleway', sans-serif;
+
+}
+
+a:hover {
+     text-shadow: 1px 1px rgba(46,61,73,0.15);
+     text-decoration: none;
+}
+
+.title-header {
+     background-color: #02b3e4;
+     border-radius: 6px;
+     box-shadow: 12px 15px 20px 0px rgba(46,61,73, 0.15);
+     padding: 15px;
+     color: white;
+
+}
+
+.name-title {
+     font-family: 'Lobster', cursive;
+     color: white;
+     text-shadow: 1px 1px rgba(46,61,73,0.15);
+     width: auto;
+     height: auto;
+     margin: auto;
+     display: inline;
+}
+
+.name-alt {
+     width: auto;
+     height: auto;
+     margin: auto;
+     display: inline;
+}
+
+.img-profile {
+     max-height: 155px;
+     max-width: 155px;
+     box-shadow: 12px 15px 20px 0px rgba(46,61,73, 0.15);
+     margin: auto;
+     margin-bottom: 15px;
+     display: block;
+}
+
+.sub-head {
+     font-family: 'Raleway', sans-serif;
+     margin-bottom: 20px;
+    
+}
+
+.project{
+     margin: auto;
+     margin-bottom: 20px;
+     border-radius: 0.375rem;
+     box-shadow: 5px 5px 10px 0px rgba(46,61,73, 0.15);
+     transition: box-shadow 0.3s ease;
+     max-width: 510px;
+}
+
+.project:focus, .project:hover{
+     cursor: pointer;
+     box-shadow: 12px 15px 20px 0px rgba(46,61,73, 0.15);
+}
+
+
+.img-project {
+     border-top-left-radius: 0.375rem;
+     border-top-right-radius: 0.375rem;
+}
+
+
+
 .example-class-selector {
 	margin-top: 2em;
 }
@@ -14,6 +102,8 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     background-color: transparent;
+     /*background: url("http://www.walldevil.com/wallpapers/a20/background-portfolio-web-template-webentwicklung-images-website.jpg") no-repeat fixed;*/
 }
 
 .jumbotron {
@@ -31,4 +121,46 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.list-heading {
+     background-color: rgb(255,162,52) ;
+     font-weight: bold;
+     color: white;
+     text-shadow: 
+}
+
+.list-group {
+     box-shadow: 5px 5px 10px 0px rgba(46,61,73, 0.15);
+}
+
+.work-experience {
+     padding: 15px;
+     margin: auto;
+     box-shadow: 5px 5px 10px 5px rgba(46,61,73, 0.15);
+     transition: box-shadow 0.3s ease;
+     max-width: 510px;
+     max-height: 180px;
+     display: inline-block;
+}
+
+.work-experience:hover {
+     cursor: pointer;
+     box-shadow: 12px 15px 20px 10px rgba(46,61,73, 0.15);
+}
+
+.img-right-label {
+     margin: auto;
+     margin-left: 10px;
+     display: inline-block;
+     font-family: 'Raleway', sans-serif;
+}
+
+.text-hover {
+     text-shadow: 1px 1px 1px 0px rgba(46,61,73,0.15);
+     transition: text-shadow 0.3s ease;
+}
+
+.text-hover:hover {
+     text-shadow: 3px 3px 3px 1px rgba(46,61,73,0.15);
 }
