@@ -30,11 +30,14 @@ a:hover {
      box-shadow: 12px 15px 20px 0px rgba(46,61,73, 0.15);
      padding: 15px;
      color: white;
+     margin:auto;
+     display: block;
 
 }
 
 .name-title {
      font-family: 'Lobster', cursive;
+     font-size: 52px;
      color: white;
      text-shadow: 1px 1px rgba(46,61,73,0.15);
      width: auto;
@@ -51,8 +54,8 @@ a:hover {
 }
 
 .img-profile {
-     max-height: 155px;
-     max-width: 155px;
+     max-height: 175px;
+     max-width: 175px;
      box-shadow: 12px 15px 20px 0px rgba(46,61,73, 0.15);
      margin: auto;
      margin-bottom: 15px;
@@ -61,7 +64,8 @@ a:hover {
 
 .sub-head {
      font-family: 'Raleway', sans-serif;
-     margin-bottom: 20px;
+     margin-bottom: 30px;
+     margin-top: 30px;
     
 }
 
@@ -137,11 +141,10 @@ body {
 .work-experience {
      padding: 15px;
      margin: auto;
+     margin-bottom: 20px;
      box-shadow: 5px 5px 10px 5px rgba(46,61,73, 0.15);
      transition: box-shadow 0.3s ease;
-     max-width: 510px;
-     max-height: 180px;
-     display: inline-block;
+     display: block;
 }
 
 .work-experience:hover {
@@ -149,18 +152,3 @@ body {
      box-shadow: 12px 15px 20px 10px rgba(46,61,73, 0.15);
 }
 
-.img-right-label {
-     margin: auto;
-     margin-left: 10px;
-     display: inline-block;
-     font-family: 'Raleway', sans-serif;
-}
-
-.text-hover {
-     text-shadow: 1px 1px 1px 0px rgba(46,61,73,0.15);
-     transition: text-shadow 0.3s ease;
-}
-
-.text-hover:hover {
-     text-shadow: 3px 3px 3px 1px rgba(46,61,73,0.15);
-}
