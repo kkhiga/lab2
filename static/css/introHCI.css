@@ -10,13 +10,18 @@
 
 
 html {
-     background: url("http://bsnscb.com/data/out/153/27270914-portfolio-wallpapers.jpg") no-repeat center center fixed;
+     background-color: #edfafd;
      -webkit-background-size: cover;
-     -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
      font-family: 'Raleway', sans-serif;
+}
 
+body {
+     padding: 20px;
+     background-color: transparent;
+     -moz-background-size: cover;
+     background: transparent;
 }
 
 a:hover {
@@ -32,7 +37,6 @@ a:hover {
      color: white;
      margin:auto;
      display: block;
-
 }
 
 .name-title {
@@ -66,30 +70,41 @@ a:hover {
      font-family: 'Raleway', sans-serif;
      margin-bottom: 30px;
      margin-top: 30px;
-    
 }
 
-.project{
+.project {
      margin: auto;
      margin-bottom: 20px;
+     max-width: 510px;
+     /*Round corners*/
      border-radius: 0.375rem;
+     /*For Hover Shadow Effect*/
      box-shadow: 5px 5px 10px 0px rgba(46,61,73, 0.15);
      transition: box-shadow 0.3s ease;
-     max-width: 510px;
+     /*Light Blue BG-color from lab
+     background-color: #deebf8;*/
+     background-color: #15c26b;
+     padding: 10px 10px 10px 10px;
 }
 
+/*For Hover Shadow Effect*/
 .project:focus, .project:hover{
-     cursor: pointer;
      box-shadow: 12px 15px 20px 0px rgba(46,61,73, 0.15);
 }
 
+.project-name {
+     margin: auto;
+     margin-top: 4px;
+     color:white;
+     font-weight: bold;
+     text-shadow: 1px 1px rgba(46,61,73,0.15);
+}
 
+/*Corner rounding for project images*/
 .img-project {
      border-top-left-radius: 0.375rem;
      border-top-right-radius: 0.375rem;
 }
-
-
 
 .example-class-selector {
 	margin-top: 2em;
@@ -99,15 +114,6 @@ a:hover {
 .example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
 	color: #CC00AA;
-}
-
-/* this style exists to make it obvious that you've successfully linked
-   the CSS to the page. feel free to remove it once the link is working. */
-body {
-     border: 1px dotted gray;
-     padding: 20px;
-     background-color: transparent;
-     /*background: url("http://www.walldevil.com/wallpapers/a20/background-portfolio-web-template-webentwicklung-images-website.jpg") no-repeat fixed;*/
 }
 
 .jumbotron {
@@ -127,26 +133,29 @@ body {
      z-index: -1;	
 }
 
+/*Add shadow to list group element*/
+.list-group {
+     box-shadow: 5px 5px 10px 0px rgba(46,61,73, 0.15);
+}
+
 .list-heading {
      background-color: rgb(255,162,52) ;
      font-weight: bold;
      color: white;
-     text-shadow: 
-}
-
-.list-group {
-     box-shadow: 5px 5px 10px 0px rgba(46,61,73, 0.15);
 }
 
 .work-experience {
      padding: 15px;
      margin: auto;
      margin-bottom: 20px;
+     display: block;
+     background-color: white;
+     /*For Hover Shadow Effects*/
      box-shadow: 5px 5px 10px 5px rgba(46,61,73, 0.15);
      transition: box-shadow 0.3s ease;
-     display: block;
 }
 
+/*For Hover Shadow Effects*/
 .work-experience:hover {
      cursor: pointer;
      box-shadow: 12px 15px 20px 10px rgba(46,61,73, 0.15);
